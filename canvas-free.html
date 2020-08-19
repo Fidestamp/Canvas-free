@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<title>Tutorial Bootstrap4 | Cosas Digitales</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css">
+        <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="modal.css">
+        <style type="text/css" >
+            header, footer, nav, aside {
+             display: none;
+                                       }
+            @page { size: landscape; }
+			.row { margin: 0px 0; }
+			.row div[class*='col'] { padding: 2px; background: white; text-align: center; border: 1px solid;}
+            textarea {
+/*  width: 300px;*/
+/*  height: 10px;*/
+                resize: none;
+                color:aqua;
+                background: gray;
+                outline-color: #719ECE;
+                margin-top: 3px;
+                margin-bottom: 4px;
+}
+/*
+            textarea.form-control {
+color: #63AEEB
+}
+*/
+            textarea:focus { 
+    outline: blue !important;
+    border-color: #719ECE;
+    box-shadow: 0 0 10px #719ECE;
+}
+ .form-group {
+ margin-bottom: 10px!important;
+     padding-top: 6;
+     margin-left: 1px!important;
+ }
+/*
+            .form-control {
+                border: none;
+            }
+*/
+            .form-control::-webkit-input-placeholder {
+  color: mediumpurple;
+}
+.form-control:-moz-placeholder {
+  color: mediumpurple;
+}
+.form-control::-moz-placeholder {
+  color: mediumpurple;
+}
+.form-control::placeholder {
+  color: mediumpurple;
+}
+.form-control:-ms-input-placeholder {
+  color: mediumpurple;
+}
+            hr { background-color: olive; height: 1px; border: 0; padding: 0px;
+    margin: 5px; }
+		</style>
+	</head>
+	<body>
+            <div class="container-fluid">     
+   <div class="row"> 
+      <div class="col"><strong>PROBLEM</strong>
+    <!-- Modal -->
+    <div class="form-group"><button type="button" class="btn btn-outline-info btn-sm"  data-toggle="modal" data-target="#exampleModal">
+  👋 Click Help!
+</button>
+  <textarea maxlength="680" class="form-control rounded-0" id="exampleFormControlTextarea1" rows="18"  placeholder="Es importante reflexionar sobre qué problema padece tu cliente que tu producto/servicio pretende solucionar" ></textarea>
+</div></div>
+       <div class="col"><strong>SOLUTION</strong><div class="form-group"><button type="button" class="btn btn-outline-info btn-sm"  data-toggle="modal" data-target="#exampleModal4">
+  👋 Click Help!
+</button>
+  
+  <textarea maxlength="280" class="form-control rounded-0" id="exampleFormControlTextarea1" rows="7" placeholder="Listar  tres características principales de tu producto/servicio" ></textarea>
+</div>
+          <div class="form-group">
+  <strong>KEYMETRIC</strong> <button style="margin-left: 1em" type="button" class="btn btn-outline-info btn-sm"  data-toggle="modal" data-target="#exampleModal8">
+  👋 Click Help!
+</button>
+  <textarea maxlength="280" class="form-control rounded-0" id="exampleFormControlTextarea1" rows="7" placeholder="Identifica las actividades clave a medir que sirvan como indicadores para la toma de decisiones" ></textarea>
+</div>
+       </div>
+      <div class="col"><strong>UNIQUE VALUE PROPOSITION</strong>
+       <div class="form-group"><button type="button" class="btn btn-outline-info btn-sm"  data-toggle="modal" data-target="#exampleModal3">
+  👋 Click Help!
+</button>
+  
+  <textarea maxlength="680" class="form-control rounded-0" id="exampleFormControlTextarea1" rows="18" placeholder="Que vas a ofrecer para solucionar los problemas detectados. " ></textarea>
+</div></div>
+       
+       <div class="col"><strong>UNFAIR ADVANTAGE</strong>
+       <div class="form-group"><button type="button" class="btn btn-outline-info btn-sm"  data-toggle="modal" data-target="#exampleModal5">
+  👋 Click Help!
+</button>
+  
+  <textarea maxlength="280" class="form-control rounded-0" id="exampleFormControlTextarea1" rows="7" placeholder="Que te hace especial frente al resto de tus competidores" ></textarea>
+</div>
+           <div class="form-group">
+  <strong>CHANNELS </strong><button style="margin-left: 1em" type="button" class="btn btn-outline-info btn-sm"  data-toggle="modal" data-target="#exampleModal9">
+  👋 Click Help!
+</button>
+  <textarea maxlength="280" class="form-control rounded-0" id="exampleFormControlTextarea1" rows="7" placeholder="Piensa cómo vas a hacer llegar tu producto/servicio a tus clientes." ></textarea>
+</div>
+       </div>
+       
+      <div class="col"><strong>CUSTOMER SEGMENTS</strong>
+       <div class="form-group"><button type="button" class="btn btn-outline-info btn-sm"  data-toggle="modal" data-target="#exampleModal2">
+  👋 Click Help!
+</button>
+  
+  <textarea maxlength="680" class="form-control rounded-0" id="exampleFormControlTextarea1" rows="18" placeholder="Cual es tu segmento de clientes y Early Adopter." ></textarea>
+</div>   
+       </div> 
+   </div>
+                
+                
+   <div class="row"> 
+      <div class="col"><strong>COST STRUCTURE</strong> 
+       <div class="form-group"><button type="button" class="btn btn-outline-info btn-sm"  data-toggle="modal" data-target="#exampleModal7">
+  👋 Click Help!
+</button>
+  
+  <textarea maxlength="380" class="form-control rounded-0" id="exampleFormControlTextarea1" rows="4" placeholder="Analiza los gastos que va a tener tu empresa" ></textarea>
+</div>
+       </div>
+      <div class="col"><strong>REVENUE STREAMS</strong> 
+       <div class="form-group"><button type="button" class="btn btn-outline-info btn-sm"  data-toggle="modal" data-target="#exampleModal6">
+  👋 Click Help!
+</button>
+  
+  <textarea maxlength="380" class="form-control rounded-0" id="exampleFormControlTextarea1" rows="4" placeholder="Cómo vas a ganar dinero. ¿Por qué te van a pagar tus clientes?" ></textarea>
+</div></div> 
+   </div></div>
+       <!-- Button trigger modal -->
+<!--
+<button type="button" class="btn btn-outline-info" data-toggle="modal" data-target="#exampleModal">
+  👋 Click Help!
+</button>
+-->
+<!-- Modal 1-->
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">HELP: PROBLEM</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        Es importante reflexionar sobre qué problema padece tu cliente que tu producto/servicio pretende solucionar
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+<!--        fin de modal 1-->
+        <!-- Modal 2-->
+<div class="modal fade" id="exampleModal2" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">HELP: CUSTOMER SEGMENTS</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        Cual es tu segmento de clientes y Early Adopter.
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+<!--        fin de modal 2-->
+        <!-- Modal 3-->
+<div class="modal fade" id="exampleModal3" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">HELP: UNIQUE VALUE PROPOSITION</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        Que vas a ofrecer para solucionar los problemas detectados. 
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+<!--        fin de modal 3->
+<!-- Modal 4-->
+<div class="modal fade" id="exampleModal4" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">HELP: SOLUTION</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        Listar  tres características principales de tu producto/servicio
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+<!--        fin de modal 4-->
+        <!-- Modal 5-->
+<div class="modal fade" id="exampleModal5" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">HELP: UNFAIR ADVANTAGE</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        Que te hace especial frente al resto de tus competidores
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+<!--        fin de modal 5-->
+        <!-- Modal 6-->
+<div class="modal fade" id="exampleModal6" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">HELP: REVENUE STREAMS</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        Cómo vas a ganar dinero. ¿Por qué te van a pagar tus clientes?
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+<!--        fin de modal 6-->
+        <!-- Modal 7-->
+<div class="modal fade" id="exampleModal7" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">HELP: COST STRUCTURE</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        Analiza los gastos que va a tener tu empresa
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+<!--        fin de modal 7-->
+        <!-- Modal 8-->
+<div class="modal fade" id="exampleModal8" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">HELP: KEY METRICS</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        Identifica las actividades clave a medir que sirvan como indicadores para la toma de decisiones
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+<!--        fin de modal 8-->
+        <!-- Modal 9-->
+<div class="modal fade" id="exampleModal9" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">HELP: CHANNELS</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        Piensa cómo vas a hacer llegar tu producto/servicio a tus clientes.
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+<!--        fin de modal 9-->
+        
+        
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <script src="canvas.js" crossorigin="anonymous"></script>
+        
+	</body>
+</html>
